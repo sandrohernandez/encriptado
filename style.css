@@ -168,19 +168,6 @@ main{
     color: white;
 }
 
-.mensaje p{
-    position: absolute;
-    top: 63%;
-    left: 10%;
-    width: 80%;
-    font-family: inherit;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 150%;
-    color: white;
-}
-
 .mensaje button{
     position: absolute;
     top: 87%;
@@ -213,7 +200,7 @@ main{
     padding: 1.8%;
 }
 
-@media (max-width: 57.5em){
+@media screen and (max-width: 1024px){
     .encabezado{
         display: flex;
         flex-direction: row;
@@ -272,7 +259,7 @@ main{
     .interactividad{
         width: 88%;
         height: 20%;
-        left: 40px;
+        left: 6%;
         top: 76%;
         gap: 32px;
     }
@@ -281,11 +268,6 @@ main{
         top: 7%;
     }
     
-    .interactividad p{
-        top: 14%;
-        left: 27.5%;
-    }
-
     .mensaje{
         width: 100%;
         top: 5%;
@@ -301,7 +283,7 @@ main{
         top: 25%;
         width: 79%;
         height: 60%;
-        left: 11%;
+        left: 0%;
     }
 
     .copiar:hover{
@@ -317,8 +299,5 @@ main{
     .mensaje textarea{
         position: absolute;
         left: 0;
-    }
-    .mensaje p{
-        left: 10%;
     }
 }
